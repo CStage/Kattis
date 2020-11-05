@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import org.junit.Test;
+
 public class Thanos {
 
     public static void log() {
@@ -85,8 +87,10 @@ public class Thanos {
         for (int i : results) {
             System.out.println(i);
         }
+        
 
     }
+
 
     public static boolean checkForOverflow(double x, double y) {
         return (x==(x*y/y));
